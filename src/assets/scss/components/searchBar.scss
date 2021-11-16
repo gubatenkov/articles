@@ -1,0 +1,37 @@
+.search-wrap {
+  margin: 0 auto;
+  max-width: 59rem;
+
+  display: flex;
+  flex-direction: column;
+
+  .search-heading {
+    margin: 0 0 0.8rem;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: $text-primary-color;
+  }
+
+  .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    border: none !important;
+  }
+
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: $border-color !important;
+  }
+
+  #Search {
+    padding: 1.5rem 4.2rem !important;
+    font-size: 1.2rem !important;
+    font-weight: 400 !important;
+    line-height: 1.4rem !important;
+    color: $text-primary-color !important;
+
+    background-image: url('../../images/search.svg');
+    background-position: 2rem;
+    background-repeat: no-repeat;
+    border-radius: 0 !important;
+  }
+}

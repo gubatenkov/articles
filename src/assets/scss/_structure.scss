@@ -1,0 +1,27 @@
+.header {
+  padding: 4.5rem 0 0;
+}
+
+.content {
+  padding: 4.5rem 0 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.divider {
+  margin: 0;
+}
+
+.articles-heading {
+  margin-bottom: 1.3rem !important;
+
+  font-size: 1.8rem !important;
+  font-weight: 400 !important;
+  color: $text-primary-color !important;
+  line-height: 2.2rem !important;
+}

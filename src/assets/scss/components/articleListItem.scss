@@ -1,0 +1,50 @@
+.article-list-item {
+  max-width: 52.5rem !important;
+
+  .article-link {
+    text-decoration: none;
+  }
+
+  .article {
+    width: 100%;
+    max-width: 52.5rem;
+    margin-bottom: 6.5rem;
+
+    &:hover {
+      cursor: pointer;
+
+      .article-heading {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .article-heading {
+    margin: 0 0 2rem 0;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    color: $text-primary-color;
+  }
+
+  .mb-15 {
+    margin: 0 0 1.5rem;
+  }
+
+  .article-description-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: $text-primary-color;
+  }
+
+  .article-description {
+    margin: 0;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: $text-primary-color;
+  }
+}

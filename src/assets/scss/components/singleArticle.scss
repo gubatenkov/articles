@@ -1,0 +1,43 @@
+.single-article {
+  .single-article-inner {
+    padding: 11.5rem 0;
+  }
+
+  .single-article-title {
+    margin-bottom: 3rem;
+
+    font-size: 3.6rem !important;
+    font-weight: 400 !important;
+    color: $text-primary-color !important;
+    line-height: 4.4rem !important;
+    text-align: center;
+  }
+
+  .single-article-content {
+    margin-bottom: 7.2rem;
+  }
+
+  .single-article-link {
+    position: relative;
+    padding: 0 0 0 100px;
+
+    text-decoration: none;
+    color: $text-primary-color;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 65px;
+      height: 5px;
+
+      position: absolute;
+      left: 0;
+      top: 7px;
+
+      background-image: url('../../images/arrow.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+  }
+}
